@@ -21,6 +21,12 @@ pip install -r requirements.txt
 ```
 
 ## Run server
+you should set save img path in app/service/generate.py
+
+```
+save_path = "path/to/your/project/app/images"
+```
+
 
 you should migration db by main.py
 
