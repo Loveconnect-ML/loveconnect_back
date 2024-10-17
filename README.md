@@ -5,6 +5,9 @@ install by conda & env.yaml
 
 ```
 conda env create -f env.yaml
+
+# Install pytorch and torchvision
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
 install by pip & requirements.txt
@@ -13,7 +16,7 @@ install by pip & requirements.txt
 # Create env and Install python
 conda create -n loveconnect_back python=3.10
 
-# pytorch and torchvision
+# Install pytorch and torchvision
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 # Install other requirements
